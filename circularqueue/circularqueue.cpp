@@ -39,7 +39,11 @@ public:
 	}
 
 	void remove() {
+		//cek apakah antrian kosong
+		if (front == -1) {
+			cout << "queue undeflow\n";
+			return;
+		}
+		cout << "\nthe element deleted from the queue is: " << queue_array[front] << "\n";
 		
-	}
-	
 };
