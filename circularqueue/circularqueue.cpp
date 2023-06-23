@@ -22,4 +22,9 @@ public:
 			cout << "\nqueue overflow\n";
 			return;
 		}	
+
+		// cek apakah antrian kosong
+		if (front == -1) {
+
+	
 };
