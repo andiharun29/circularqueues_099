@@ -10,4 +10,8 @@ public:
 		front = -1;
 		rear = -1;
 	}
+
+	void insert() {
+
+	}
 };
